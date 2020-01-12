@@ -1,0 +1,9 @@
+<structure name="createMessage">
+    <field comment=" Character encoding of the body. Value can be: plain, unicode or auto" name="encoding" type="java.lang.String"/>
+    <field comment="The message body. Max. Character Length: 608 for plain /  264 for unicode" maxLength="264" name="body" type="java.lang.String"/>
+    <field comment=" Your given route to send the message on. Can be a valid route ID supplied by Spryng or the default business route" name="route" type="java.lang.String"/>
+    <field comment="The sender of the message. Can be alphanumeric string (max. 11 characters) or phonenumber (max. 14 digits)" name="originator" type="java.lang.String"/>
+    <field comment="List of recipient numbers MSISDNs. Max. 50 per API-call" maxOccurs="50" name="recipients" type="java.lang.String"/>
+    <field comment="Time when the message should be sent, Atom/RFC3339 formatted. (default: now)" minOccurs="0" name="scheduled_at" type="java.util.Date"/>
+    <field comment="A client reference" minOccurs="0" name="reference" type="java.lang.String"/>
+</structure>

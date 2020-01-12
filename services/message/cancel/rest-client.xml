@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restClient>
+    <method>POST</method>
+    <path>/v1/messages/{messageId}/cancel</path>
+    <host>rest.spryngsms.com</host>
+    <secure>true</secure>
+    <preemptiveAuthorizationType>BEARER</preemptiveAuthorizationType>
+    <requestType>JSON</requestType>
+    <responseType>JSON</responseType>
+    <lenient>true</lenient>
+</restClient>

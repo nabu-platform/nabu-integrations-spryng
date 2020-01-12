@@ -1,0 +1,3 @@
+<structure name="balance">
+    <field name="amount" type="java.lang.Double"/>
+</structure>

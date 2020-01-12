@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restClient>
+    <method>GET</method>
+    <path>/v1/balance</path>
+    <output>nabu.integrations.spryng.services.balance.balance</output>
+    <host>rest.spryngsms.com</host>
+    <secure>true</secure>
+    <preemptiveAuthorizationType>BEARER</preemptiveAuthorizationType>
+    <requestType>JSON</requestType>
+    <responseType>JSON</responseType>
+    <lenient>true</lenient>
+</restClient>

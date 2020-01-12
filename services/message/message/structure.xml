@@ -1,0 +1,14 @@
+<structure name="anonymous">
+    <field name="id" type="java.util.UUID"/>
+    <field name="encoding" type="java.lang.String"/>
+    <field name="originator" type="java.lang.String"/>
+    <field name="body" type="java.lang.String"/>
+    <field name="reference" type="java.lang.String"/>
+    <field name="credits" type="java.lang.Long"/>
+    <field name="scheduled_at" type="java.util.Date"/>
+    <field name="created_at" type="java.util.Date"/>
+    <field name="updated_at" type="java.util.Date"/>
+    <structure name="links">
+        <field name="self" type="java.net.URI"/>
+    </structure>
+</structure>
