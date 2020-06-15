@@ -1,0 +1,5 @@
+<structure name="spryng">
+    <field name="apiKey" type="java.lang.String"/>
+    <field name="route" type="java.lang.String"/>
+    <field minOccurs="0" name="from" type="java.lang.String"/>
+</structure>

@@ -1,11 +1,11 @@
 <structure name="anonymous">
-    <field name="id" type="java.util.UUID"/>
+    <field name="id" pattern="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}|[0-9a-fA-F]{32}" type="java.util.UUID"/>
     <field name="status" type="java.lang.String"/>
     <field name="encoding" type="java.lang.String"/>
     <field name="originator" type="java.lang.String"/>
     <field name="body" type="java.lang.String"/>
     <field name="reference" type="java.lang.String"/>
-    <field name="credits" type="java.lang.Long"/>
+    <field name="credits" type="java.lang.String"/>
     <field name="scheduled_at" type="java.util.Date"/>
     <field name="created_at" type="java.util.Date"/>
     <field name="updated_at" type="java.util.Date"/>

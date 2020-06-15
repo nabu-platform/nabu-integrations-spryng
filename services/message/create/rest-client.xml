@@ -10,4 +10,7 @@
     <requestType>JSON</requestType>
     <responseType>JSON</responseType>
     <lenient>true</lenient>
+    <description>Create a new message.
+
+Originator and recipient numbers must be in a format like "31612345678" (international numeric).</description>
 </restClient>

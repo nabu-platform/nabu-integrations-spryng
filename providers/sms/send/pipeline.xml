@@ -1,0 +1,7 @@
+<structure interface="nabu.specs.sms.send" name="pipeline">
+    <structure name="input">
+        <structure definition="nabu.integrations.spryng.providers.sms.configuration" minOccurs="0" name="configuration"/>
+    </structure>
+    <structure name="output"/>
+    <structure definition="nabu.integrations.spryng.services.message.createInput" name="message"/>
+</structure>
