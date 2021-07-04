@@ -1,5 +1,5 @@
 <structure name="spryng">
     <field name="apiKey" type="java.lang.String"/>
-    <field name="route" type="java.lang.String"/>
+    <field comment="Our test route is configured at 1694, this will not actually send text messages but otherwise work. You can use the default &quot;business&quot; route to actually send message" name="route" type="java.lang.String"/>
     <field minOccurs="0" name="from" type="java.lang.String"/>
 </structure>

@@ -87,6 +87,33 @@
 			<to>message/reference</to>
 		</steps>
 	</steps>
+	<steps xsi:type="be.nabu.libs.services.vm.step.Map"
+			comment="Use the server name as default"
+			disabled="false"
+			id="29254c21-6fef-4771-8ef7-6c2cab93d364"
+			label="message/originator = null">
+		<steps xsi:type="be.nabu.libs.services.vm.step.Invoke"
+				disabled="false"
+				id="9e8b26bd-d707-403d-a710-5fffdb547dca"
+				serviceId="nabu.utils.Server.getServerName"
+				resultName="result6f6070a7c08b4d2393e78914b902029b"
+				temporaryMapping="true"
+				x="171"
+				y="60"
+				invocationOrder="0"
+				asynchronous="false"
+				recache="false">
+		</steps>
+		<steps xsi:type="be.nabu.libs.services.vm.step.Link"
+				disabled="false"
+				id="7d79fcf8-56f0-453a-b0a8-f9298ed772bb"
+				mask="false"
+				optional="false"
+				fixedValue="false">
+			<from>result6f6070a7c08b4d2393e78914b902029b/server</from>
+			<to>message/originator</to>
+		</steps>
+	</steps>
 	<steps xsi:type="be.nabu.libs.services.vm.step.For"
 			disabled="false"
 			id="702ae69c-6b8d-45c3-82d1-54c630aa015e"
